@@ -36,7 +36,7 @@ var retina = window.devicePixelRatio,
 }(window));
 
 document.addEventListener("DOMContentLoaded", function() {
-  var speed =200,
+  var speed =20,
       duration = (1.0 / speed),
       confettiRibbonCount = 11,
       ribbonPaperCount = 30,
