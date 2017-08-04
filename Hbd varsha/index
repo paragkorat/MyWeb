@@ -1,0 +1,45 @@
+<html>
+  <head>
+  <title>Hbd Varsha</title>
+  <link rel="shortcut icon" href="birthday-cake-icon-28.bin">
+   <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  	<script type="text/javascript" src="script.js"></script>
+<canvas height='1' id='confetti' width='1'></canvas>
+
+
+<div class="cssload-preloader">
+		
+		<div class="cssload-preloader-box">
+
+				<div>H</div>
+			    <div>a</div>
+			    <div>p</div>		
+			    <div>p</div>		
+			    <div>y</div>
+
+			    <div></div>		
+			    <div>B</div>
+			    <div>i</div>
+			    <div>r</div>
+			    <div>t</div>
+			    <div>h</div>
+			    <div>D</div>
+			    <div>a</div>
+			    <div>y</div>
+			    <div></div>
+			    <div>V</div>
+			    <div>a</div>
+			    <div>r</div>
+			    <div>s</div>
+			    <div>h</div>
+			    <div>a</div>
+
+
+	    </div>
+
+</div>
+
+  </body>
+</html>
