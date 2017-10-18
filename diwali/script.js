@@ -6,7 +6,7 @@ var w = c.width = window.innerWidth,
 		hh = h / 2,
 		
 		opts = {
-			strings:[' May this Diwali be bright for you and your family.', ' May God fulfill all your ',' wishes this Diwali.','Happy Diwali!','','','- Parag Korat' ],
+			strings:[' May this Diwali be bright for',' you and your family.', ' May God fulfill all your ',' wishes this Diwali.','Happy Diwali!','','','- Parag Korat' ],
 			charSize: 30,
 			charSpacing: 30,
 			lineHeight: 40,
