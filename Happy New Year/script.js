@@ -84,8 +84,8 @@ class Firework {
     let xDiff = this.targetX - this.x
     let yDiff = this.targetY - this.y
     if (Math.abs(xDiff) > 3 || Math.abs(yDiff) > 3) { // is still moving
-      this.x += xDiff / 20
-      this.y += yDiff / 20
+      this.x += xDiff / 5
+      this.y += yDiff / 5
 
       this.history.push({
         x: this.x,
