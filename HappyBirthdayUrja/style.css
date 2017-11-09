@@ -1,0 +1,404 @@
+ 
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image:url("Uj.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#confetti{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+img{
+  margin-top: 130%;
+  padding-left: 35%;
+  width: 350px;
+  height: 350px;
+}
+
+audio{
+  display: none;
+}
+
+
+.cssload-preloader {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+}
+
+.cssload-preloader > .cssload-preloader-box {
+  position: absolute;
+  height: 29px;
+  top: 90%;
+  left: 20%;
+  margin: -15px 0 0 -146px;
+  perspective: 595px;
+    
+}
+
+.cssload-preloader .cssload-preloader-box > div {
+  position: relative;
+  width: 29px;
+  height: 29px;
+  background: rgb(204,204,204);
+  float: left;
+  text-align: center;
+  line-height: 29px;
+  font-family: Verdana;
+  font-size: 19px;
+  color: rgb(255,255,255);
+}.cssload-preloader .cssload-preloader-box > div:nth-child(1) {
+  background: red;
+  margin-right: 15px;
+  animation: n1 690ms ease 0ms infinite alternate;
+    
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(2) {
+  background: yellow;
+  margin-right: 15px;
+  animation: n2 690ms ease 86.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(3) {
+  background: blue;
+  margin-right: 15px;
+  animation: n3 690ms ease 172.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(4) {
+  background: green;
+  margin-right: 15px;
+  animation: n4 690ms ease 258.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(5) {
+  background: red;
+  margin-right: 15px;
+  animation: n5 690ms ease 345ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(6) {
+  background: rgba(51, 102, 255, 0);
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(7) {
+  background: yellow;
+  margin-right: 15px;
+  animation: n7 690ms ease 517.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(8) {
+  background: blue;
+  margin-right: 15px;
+  animation: n8 690ms ease 603.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(9) {
+  background: green;
+  margin-right: 15px;
+  animation: n9 690ms ease 690ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(10) {
+  background: red;
+  margin-right: 15px;
+  animation: n10 690ms ease 776.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(11) {
+  background: yellow;
+  margin-right: 15px;
+  animation: n11 690ms ease 862.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(12) {
+  background: blue;
+  margin-right: 15px;
+  animation: n12 690ms ease 948.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(13) {
+  background: green;
+  margin-right: 15px;
+  animation: n13 690ms ease 1035ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(14) {
+  background: red;
+  margin-right: 15px;
+  animation: n14 690ms ease 1121.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(15) {
+  background: rgba(51, 102, 255, 0);
+ }
+.cssload-preloader .cssload-preloader-box > div:nth-child(16) {
+  background: yellow;
+  margin-right: 15px;
+  animation: n16 690ms ease 1293.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(17) {
+  background: blue;
+  margin-right: 15px;
+  animation: n17 690ms ease 1380ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(18) {
+  background: green;
+  margin-right: 15px;
+  animation: n18 690ms ease 1466.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(19) {
+  background: red;
+  margin-right: 15px;
+  animation: n19 690ms ease 1552.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(20) {
+  background: yellow;
+  margin-right: 15px;
+  animation: n20 690ms ease 1638.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(21) {
+  background: blue;
+  margin-right: 15px;
+  animation: n21 690ms ease 1725ms infinite alternate;
+}
+
+
+@keyframes n1 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px green;
+    background: green;
+  }
+}
+
+
+@keyframes n2 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px  red;
+    background: red;
+  }
+}
+
+@keyframes n3 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px yellow;
+    background: yellow;
+  }
+}
+
+@keyframes n4 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px blue;
+    background: blue;
+  }
+}
+
+@keyframes n5 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px green ;
+    background: green;
+  }
+}
+
+@keyframes n7 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px red;
+    background: red;
+  }
+}
+
+@keyframes n8{
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px yellow;
+    background: yellow;
+  }
+}
+
+@keyframes n9 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px blue;
+    background: blue;
+  }
+}
+
+@keyframes n10{
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px green;
+    background: green;
+  }
+}
+
+@keyframes n11 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px red;
+    background: red;
+  }
+}
+
+@keyframes n12{
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px yellow;
+    background: yellow;
+  }
+}
+
+@keyframes n13 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px blue;
+    background: blue;
+  }
+}
+
+@keyframes n14 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px green;
+    background: green;
+  }
+}
+
+@keyframes n16 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px red;
+    background:red ;
+  }
+}
+
+@keyframes n17{
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px yellow;
+    background: yellow;
+  }
+}
+
+@keyframes n18 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px blue;
+    background: blue;
+  }
+}
+
+@keyframes n19 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px green;
+    background: green;
+  }
+}
+
+@keyframes n20 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px red;
+    background: red;
+  }
+}
+
+@keyframes n21 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px yellow;
+    background: yellow;
+  }
+}
+
+@keyframes n22 {
+  from {
+    transform: scale(1.0) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 14px 39px blue;
+    background: blue;
+  }
+}
+
