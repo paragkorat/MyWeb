@@ -3,8 +3,40 @@
   <title>Hbd Urja</title>
   <link rel="shortcut icon" href="birthday-cake-icon-28.bin">
    <link rel="stylesheet" type="text/css" href="style.css">
+	  
+	  <script>
+		window.addEventListener('load', function () {
+			var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+			var source = audioCtx.createBufferSource();
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', 'u.mp3');
+			xhr.responseType = 'arraybuffer';
+			xhr.addEventListener('load', function (r) {
+				console.log(xhr.response);
+				audioCtx.decodeAudioData(
+						xhr.response, 
+						function (buffer) {
+							source.buffer = buffer;
+							source.connect(audioCtx.destination);
+							source.loop = false;
+						});
+				playsound();
+			});
+			xhr.send();
+			var playsound = function () {
+				source.start(0);
+			};
+			document.querySelector('.player').addEventListener('click', function () {
+				playsound();
+			});
+		});
+		</script>
+
   </head>
   <body>
+	  
+	  <button class="player" style="display:none;">Play!</button>
+
 	  <audio controls autoplay loop>
   <source src="u.mp3" type="audio/mpeg">
 </audio>
