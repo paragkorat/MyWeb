@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Open Sans", Monospace, sans-serif;
+}
+html .container, body .container {
+  background-color: #ffffff;
+  height: 92%;
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  box-shadow: 0 0 44px 21px rgba(7, 94, 84, 0.78);
+}
+html .container .body, body .container .body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+html .container .body .status-bar, body .container .body .status-bar {
+  width: 100%;
+  background-color: #075e54;
+  height: 130px;
+  margin-top: -3px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 70px;
+  box-shadow: 0px 10px 26px 2px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+html .container .body .state, body .container .body .state {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: block;
+}
+html .container .body .state.present, body .container .body .state.present {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-property: opacity, visibility;
+  transition-property: opacity, visibility;
+  -webkit-transition-delay: 0.5s, 0.5s;
+          transition-delay: 0.5s, 0.5s;
+}
+html .container .body .state.next, body .container .body .state.next {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-property: opacity, visibility;
+  transition-property: opacity, visibility;
+  -webkit-transition-delay: 0s, 0s;
+          transition-delay: 0s, 0s;
+}
+html .container .body .state.list, body .container .body .state.list {
+  overflow-y: scroll;
+}
+html .container .body .state.list::-webkit-scrollbar-track, body .container .body .state.list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: rgba(220, 248, 198, 0.3);
+}
+html .container .body .state.list::-webkit-scrollbar, body .container .body .state.list::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(220, 248, 198, 0.3);
+}
+html .container .body .state.list::-webkit-scrollbar-thumb, body .container .body .state.list::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(220, 248, 198, 0.3);
+}
+html .container .body .state .contact, body .container .body .state .contact {
+  width: 100%;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+html .container .body .state .contact .display-pic, body .container .body .state .contact .display-pic {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html .container .body .state .contact .display-pic img, body .container .body .state .contact .display-pic img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
+html .container .body .state .contact .name, body .container .body .state .contact .name {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: xx-large;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-weight: 600;
+  color: #128c7e;
+}
+html .container .body .state .details, body .container .body .state .details {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html .container .body .state .details img, body .container .body .state .details img {
+  width: 500px;
+  height: auto;
+  border-radius: 0;
+}
+html .container .body .state .details .name, body .container .body .state .details .name {
+  font-weight: 700;
+  color: #075e54;
+  font-size: 80px;
+}
