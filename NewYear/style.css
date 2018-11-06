@@ -19,12 +19,12 @@ h1{
   color: #eaac11;
   font-family: 'Great Vibes', cursive;
   text-align: center;
-          letter-spacing: 8px;
+  letter-spacing: 8px;
   width: 1000px;
   text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.8);
 }
 p{
-          letter-spacing: 5px;
+  letter-spacing: 5px;
   font-family: 'Great Vibes', cursive;
   text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.8);
   font-size: 70px;
